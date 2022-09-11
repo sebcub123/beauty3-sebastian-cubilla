@@ -23,24 +23,18 @@
 
         height: 80%;
 
-        .carousel{
+        .carousel {
             display: none !important;
         }
 
         .img-oculta {
-           
+
             img {
                 display: flex !important;
                 width: 100%;
             }
 
         }
-    }
-
-
-
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr);
     }
 
     .nav-form {
@@ -50,6 +44,10 @@
     .main-index {
         height: 80%;
     }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr) !important;
+      }
 }
 
 @media (max-width: 450px) {
@@ -67,10 +65,14 @@
     }
 
 
+    .contenedorProductos {
 
-    .contenedorProductos img {
-        width: 200px;
+        img {
+            width: 200px;
+        }
     }
+
+
 
     .main-sucursales {
         display: block;
