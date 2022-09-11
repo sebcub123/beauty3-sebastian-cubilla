@@ -181,8 +181,10 @@
     justify-content: start !important; }
   .main-index {
     height: 80%; }
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr) !important; } }
+  .main-tienda .grid-container {
+    grid-template-columns: repeat(1, 1fr) !important; }
+    .main-tienda .grid-container .contenedorProductos img {
+      width: 200px; } }
 
 @media (max-width: 450px) {
   header {
