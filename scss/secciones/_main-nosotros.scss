@@ -1,0 +1,22 @@
+.main-nosotros img {
+    width: 100%;
+    height: auto;
+}
+
+.main-nosotros h3,
+.main-nosotros p {
+    text-align: center;
+}
+
+.main-nosotros h3 {
+    font-size: 28px;
+}
+
+.main-nosotros h1 {
+    @extend %estilo-h1;
+    @include font-style (#f8077f)
+}
+
+.main-nosotros p {
+    font-size: 24px;
+}
