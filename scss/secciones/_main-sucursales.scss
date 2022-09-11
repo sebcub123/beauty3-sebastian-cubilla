@@ -1,21 +1,21 @@
 .main-sucursales {
+
     background-color: #f8389817;
     display: block;
-}
 
-.txtSuc h1,
-.txtSuc h3 {
-    text-align: center;
-}
+    .txtSuc{
+        h1{
+            font-size: 36px;
+            text-align: center;
+        }
 
-.txtSuc h1 {
-    font-size: 36px;
-}
+        h3 {
+            font-size: 24px;
+            text-align: center;
+        }    
+    }
 
-.txtSuc h3 {
-    font-size: 24px;
-}
-
-.map{
-    width: 100%;
+    .map {
+        width: 100%;
+    }
 }

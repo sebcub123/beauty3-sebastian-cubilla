@@ -1,16 +1,17 @@
 .footer {
     height: 120px;
-}
 
-.footer ul {
-    list-style: none;
-    display: flex;
-    width: 100px;
-    margin: 0 auto;
-    justify-content: center;
-    padding-top: 15px;
-}
+    ul {
+        list-style: none;
+        display: flex;
+        width: 100px;
+        margin: 0 auto;
+        justify-content: center;
+        padding-top: 15px;
 
-.footer li {
-    margin: 10px;
+
+        li {
+            margin: 10px;
+        }
+    }
 }
